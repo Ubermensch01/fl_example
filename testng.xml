@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login tests" verbose="1">
+    <test name="Firefox">
+        <parameter name="browser" value="grid-ff"/>
+        <packages>
+            <package name="com.fieldlens.login"/>
+        </packages>
+    </test>
+    <test name="Chrome">
+        <parameter name="browser" value="grid-chrome"/>
+        <packages>
+            <package name="com.fieldlens.login"/>
+        </packages>
+    </test>
+</suite>
